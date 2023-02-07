@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -20,7 +22,12 @@ public class LoginTest {
 		System.out.println("User Name is --->>>  "+username );
 		System.out.println("Password  is --->>>  "+password );
 		
-		WebDriverManegar.chromeDriver.setup();
+//		WebDr.chromeDriver.setup();
+//		WebDriver driver = new ChromeDriver();
+//		driver.get(url);
+//		driver.findElement(By.id("")).sendkeys(username);
+//		driver.findElement(By.id("")).sendkeys(password);
+//		driver.findElement(By.id("")).click();
 		
 	}
 	
